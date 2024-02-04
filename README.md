@@ -37,15 +37,15 @@ something like an end result of -40%, whilt the NN predicts +25%, that would be 
 ![image](https://github.com/FelixCodesTech/Long-Term-Stock-Prediction/assets/66774630/3244eb66-f161-4bdd-a7ce-6a6f54e6a685)
 
 ## Statistics
-#### Chart V1
+#### Chart V2
 This is a chart showing how good the NN performs on certain combinations of Context and Solution Window.
 Red (1.0) is really bad, while Blue (0.0) is "good" (compared to the other really terrible predictions. Probably as good as the examples above.)
 You can see that the smaller the Ratio SolutionWindow/ContextWindow becomes, the better (more blue) the point gets.
+This chart contains way less points gives therefor a better overview.
+
+![image](https://github.com/FelixCodesTech/Long-Term-Stock-Prediction/assets/66774630/887e5dc8-ea88-4ae2-8606-d995aa8b2b34)
+
+#### Chart V1
 Why is this only until 300 Context Window? Because I haven't run the statistics notebook for long enough yet.
 
 ![image](https://github.com/FelixCodesTech/Long-Term-Stock-Prediction/assets/66774630/a7402382-75e0-4a58-ad25-2162a2a2ee61)
-
-#### Chart V2
-This one contains way less points gives therefor a better overview. For more detailed explanation see Chart V1 above.
-![image](https://github.com/FelixCodesTech/Long-Term-Stock-Prediction/assets/66774630/887e5dc8-ea88-4ae2-8606-d995aa8b2b34)
-
